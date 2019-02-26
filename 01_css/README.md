@@ -86,7 +86,13 @@ Follow guide bellow and build your web
   </head>
 ```
 
+
 ### step 4: Set display
+edit app.css
+```
+$ vi app.css
+```
+
 ```
 i.avatar, i.icon {
   background-position: center;
