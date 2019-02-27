@@ -3,8 +3,9 @@
 ## Introduction 
 Follow guide bellow and build your web
 
-## Guide
-### step 1: Paste code bellow to demo.html
+## Edit the index.html
+`$ vi index.html`
+### step 1: Paste code bellow to index.html
 ```
 <!DOCTYPE html>
 <html>
@@ -86,13 +87,9 @@ Follow guide bellow and build your web
   </head>
 ```
 
-
-### step 4: Set display
-edit app.css
-```
-$ vi app.css
-```
-
+## Edit the app.css
+`$ vi app.css`
+### step 1: Set display
 ```
 i.avatar, i.icon {
   background-position: center;
@@ -100,8 +97,15 @@ i.avatar, i.icon {
   height: 30px;
 }
 ```
+```
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 5% 0;
+}
+```
 
-### step 5: Set position
+### step 2: Set position
 ```
 #navbar, #banner, #main, #bottom {
   background-color: white;
@@ -111,7 +115,7 @@ i.avatar, i.icon {
 }
 ```
 
-### step 6: Set z-index
+### step 3: Set z-index
 ```
 #main {
   box-sizing: border-box;
@@ -122,17 +126,10 @@ i.avatar, i.icon {
 }
 ```
 
-### step 7: Set position 
+### step 4: Set position 
 ```
 .right {
   position: absolute;
   right: 0.5em;
-}
-```
-
-### step 8: Set font-size
-```
-h1 {
-  font-size: 30px;
 }
 ```

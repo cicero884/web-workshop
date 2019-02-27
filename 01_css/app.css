@@ -54,7 +54,6 @@ i.icon {
 }
 
 .info {
-  display: flex;
   justify-content: space-between;
   margin: 0 0 5% 0;
 }
